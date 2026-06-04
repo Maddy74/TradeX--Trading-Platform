@@ -1,0 +1,28 @@
+.eco-system img{
+    max-width: 110%;
+    width: auto;
+}
+
+.eco-info h2{
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+    line-height: 1.5;
+}
+
+.eco-info h3{
+    font-size: 1.25rem;
+    line-height: 1.6;
+}
+.eco-info p{
+    line-height: 1.8;
+}
+
+.eco-links {
+    margin-top: 2rem;
+    text-align: center;
+}
+.eco-links a{
+    margin-right: 2rem;
+    text-decoration: none;
+    font-weight: 500;
+}

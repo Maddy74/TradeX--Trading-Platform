@@ -1,0 +1,50 @@
+/* Section spacing */
+.left-section {
+  padding: 40px 0;
+  align-items: center;
+}
+
+/* Image column */
+.left-image {
+  display: flex;
+  justify-content: center;
+}
+
+.left-image img {
+  width: 120%;
+  height: auto;
+}
+
+/* Content column */
+.right-content {
+  padding-left: 190px;
+}
+
+/* Typography */
+.right-content h1 {
+  font-size: 2rem;
+  margin-bottom: 16px;
+}
+
+.right-content p {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+
+.Demo-links{
+    margin-bottom: 20px;
+}
+
+.Demo-links a{
+    text-decoration: none;
+    font-weight: 600;
+}
+.Demo-links .Demo-2{
+    margin-left: 50px;
+}
+
+.store-links .store-2{
+    margin-left: 20px;
+} 

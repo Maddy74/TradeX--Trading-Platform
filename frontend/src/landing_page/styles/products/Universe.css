@@ -1,0 +1,51 @@
+.zerodha-uni h2{
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.zerodha-uni p{
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+.zerodha-uni{
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.universe-images img{
+    margin-top: 3rem;
+}
+.universe-images img{
+    max-width: 100%;
+    width: 200px;
+    height: 55px;
+    object-fit: contain;
+}
+
+.universe-info{
+    line-height: 18px;
+    display: block;
+    margin-top: 10px;
+    color: #9b9b9b;
+    font-size: .75rem;
+}
+
+.zerodha-uni button{
+    font-weight: 600;
+    margin-top: 60px;
+}
+
+.universe-btn{
+    width:20%;
+    margin: 0 auto;
+    background-color: #387ed1;
+    color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0) !important;
+    border-radius: 3px;
+}
+.universe-btn:hover{
+    background-color: black;
+    cursor: pointer;
+}

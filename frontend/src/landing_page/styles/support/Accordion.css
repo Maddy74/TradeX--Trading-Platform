@@ -1,0 +1,45 @@
+.accordion{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid lightgrey;
+}
+
+.accordion-title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.icon-wrapper {
+  width: 38px;
+  height: 38px;
+  background-color: #e7f1ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1rem;
+}
+
+.icon-wrapper i {
+  font-size: 25px;
+  color: #397dd0;
+}
+
+.accordion-title{
+  font-size: 18px;
+  color: #424242;
+  font-weight: 600;
+}
+
+.accordion-body ul li a{
+    text-decoration: none;
+    color: #397dd0;
+}
+.accordion-body ul li {
+    color: #397dd0;
+    margin-bottom:1rem ;
+}
+
+.two-links{
+  background-color: bisque;
+}

@@ -1,0 +1,33 @@
+.Open-Account{
+    margin-top: 5rem;
+}
+.Open-Account button{
+    font-weight: 600;
+}
+
+.Open-Account h2{
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.Open-Account p{
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+.account-btn{
+    width:20%;
+    margin: 0 auto;
+    background-color: #387ed1;
+    color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0) !important;
+    border-radius: 3px;
+    margin-top: 15px;
+}
+
+.account-btn:hover{
+    background-color: black;
+    cursor: pointer;
+}
+

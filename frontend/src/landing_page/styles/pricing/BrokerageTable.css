@@ -1,0 +1,92 @@
+/* Outer wrapper */
+.brokerage-wrapper {
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #ffffff;
+  margin-bottom: 2rem;
+}
+
+/* Header row */
+.brokerage-header {
+  border-bottom: 1px solid #e5e7eb;
+}
+
+/* Each row */
+/* .brokerage-row {
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.brokerage-row:last-child {
+  border-bottom: none;
+} */
+
+/* All cells */
+.brokerage-cell {
+  padding: 18px 14px;           /* row height */
+  font-size: 14px;
+  line-height: 1.5;
+  color: #424242;
+  display: flex;
+  align-items: center;
+}
+
+/* Header cells */
+.header-cell {
+  font-size: 15px;
+  font-weight: 600;
+  color: #424242;
+  text-align: center;
+}
+
+/* Left labels */
+.label-cell {
+  font-weight: 500;
+  justify-content: flex-start;
+  text-align: left;
+  white-space: nowrap;
+}
+
+/* Data cells */
+.brokerage-row > .col:not(:first-child) {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-weight: 400;
+  border: none !important;
+  font-size: .875rem;
+  padding: 12px 15px;
+}
+
+/* Multi-line values */
+.stacked-values {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 14px;
+  line-height: 1.45;
+  text-align: center;
+}
+
+/* Remove bootstrap gutter effect */
+.brokerage-wrapper .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.brokerage-wrapper .col {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* Responsive handling */
+@media (max-width: 768px) {
+  .brokerage-cell {
+    font-size: 13px;
+    padding: 14px 10px;
+  }
+
+  .header-cell {
+    font-size: 14px;
+  }
+}

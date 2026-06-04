@@ -1,0 +1,18 @@
+.education {
+    margin-top: 6rem;
+}
+
+.education p{
+    line-height: 1.8;
+}
+
+.education h2{
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+.education-links a{
+    text-decoration: none;
+    font-weight: 500;
+}

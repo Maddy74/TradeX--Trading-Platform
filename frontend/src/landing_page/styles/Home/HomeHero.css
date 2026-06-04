@@ -1,0 +1,36 @@
+.hero{
+    margin-top: 5rem;
+}
+
+.Hero-info h1{
+    font-size: 1.75rem;
+    line-height: 1.25;
+}
+.Hero-info p{
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.Hero-info button{
+    font-weight: 600;
+    margin-top: 25px;
+}
+
+.Home-btn{
+    width:20%;
+    margin: 0 auto;
+    background-color: #387ed1;
+    color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0) !important;
+    border-radius: 3px;
+}
+
+.Home-btn:hover{
+    background-color: black;
+    cursor: pointer;
+}
+
+.press-logos{
+    width: 90%;
+}

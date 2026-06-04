@@ -1,0 +1,36 @@
+.navbar{
+    width: 100%;
+    top: 0;
+    background-color: #fff;
+    box-shadow: 2px 1px 2px #eee;
+    position: fixed;
+    z-index: 10;
+    height: 64px;
+    padding: 0 2rem;
+}
+
+.container{
+    position: relative;
+    width: 1100px;
+    max-width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.logo{
+    height: 48px;
+    vertical-align: middle;
+    position: relative;
+    left: 5rem;
+}
+
+.nav-item a{
+    text-decoration: none;
+    color: #666;
+    margin-left: 30px;
+}
+
+.nav-item a:hover{
+    color: #387ed1;
+    font-weight: 600;
+}

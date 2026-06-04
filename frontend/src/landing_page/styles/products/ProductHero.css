@@ -1,0 +1,21 @@
+.products{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.product-heading{
+    text-align: center;
+}
+.product-heading h1{
+    font-size: 1.75rem;
+    line-height: 1.25;
+}
+.para-link{
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.prod-line{
+    border-bottom: 1px solid #eee;
+    margin-top: 6rem;
+}

@@ -1,0 +1,42 @@
+.price-heading{
+    margin-top: 4rem;
+    text-align: center;
+}
+.price-heading h1{
+    font-size: 1.75rem;
+    line-height: 1.25;
+}
+.price-heading p{
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-top: 10px;
+    color: #9b9b9b;
+}
+
+.price-line{
+    border-bottom: 1px solid #eee;
+    margin-top: 6rem;
+}
+
+.charging-section img{
+    margin-bottom: 15px;
+    width: 250px;
+    max-width: 100%;
+    object-fit: contain;
+}
+.charging-section{
+    text-align: center;
+    margin-bottom: 4rem;
+}
+.charging-section h2{
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 1.75rem;
+    line-height: 1.6;
+}
+.charging-section p{
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #666 !important;
+}

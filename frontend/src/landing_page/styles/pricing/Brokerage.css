@@ -1,0 +1,14 @@
+.brokerage-calc a{
+    color: #387ed1;
+    text-decoration: none;
+}
+.brokerage-calc a:hover{
+    color: #424242;
+    
+}
+.brokerage-calc{
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 50px;
+}

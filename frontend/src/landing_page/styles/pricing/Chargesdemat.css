@@ -1,0 +1,56 @@
+.row h1{
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+}
+
+.demataccount-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+}
+
+.demataccount-table th,
+.demataccount-table td {
+    padding: 14px 16px;
+    border-bottom: 1px solid #e5e5e5;
+    font-size: 15px;
+}
+
+.demataccount-table th {
+    text-align: left;
+    font-weight: 600;
+    background-color: #f8f9fa;
+}
+
+.demataccount-table td:last-child,
+.demataccount-table th:last-child {
+    text-align: right;
+    white-space: nowrap;
+}
+
+.badge-free {
+    background-color: #28a745;
+    color: #fff;
+    font-size: 12px;
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+.table-wrapper {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.attention{
+    margin-top: 10px;
+    font-size: .78rem;
+    line-height: 1.8;
+    margin-bottom: 15px;
+    color: #424242;
+}
+.attention a{
+    text-decoration: none;
+    font-weight: 600;
+}
