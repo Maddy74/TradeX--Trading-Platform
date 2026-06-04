@@ -11,8 +11,8 @@ TradeX is a full-stack trading platform that combines a powerful backend with an
 ```
 TradeX--Trading-Platform/
 ├── backend/          # Backend API and server logic
-├── frontend/         # Main user-facing trading interface
-├── dashboard/        # Administrative dashboard
+├── frontend/         # Main user-facing trading interface (Vite + React)
+├── dashboard/        # Administrative dashboard (Vite + React)
 └── README.md        # This file
 ```
 
@@ -24,9 +24,9 @@ TradeX--Trading-Platform/
 - **CSS** - Styling and layout (32,251 bytes)
 
 ### Architecture
-- **Frontend**: React-based user interface for traders
+- **Frontend**: Vite + React for the main trading interface
 - **Backend**: Node.js/Express server for API endpoints
-- **Dashboard**: Administrative interface for platform management
+- **Dashboard**: Vite + React for administrative management
 
 ## 🚀 Features
 
@@ -62,14 +62,14 @@ TradeX--Trading-Platform/
    ```bash
    cd frontend
    npm install
-   npm start
+   npm run dev
    ```
 
 4. **Dashboard Setup**
    ```bash
    cd dashboard
    npm install
-   npm start
+   npm run dev
    ```
 
 ## 📋 Available Scripts
@@ -78,14 +78,17 @@ TradeX--Trading-Platform/
 - `npm start` - Start the backend server
 - `npm test` - Run backend tests
 
-### Frontend
-- `npm start` - Launch the development server
-- `npm build` - Build for production
-- `npm test` - Run tests
+### Frontend (Vite)
+- `npm run dev` - Launch the development server with hot reload
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build locally
+- `npm run lint` - Run ESLint
 
-### Dashboard
-- `npm start` - Launch the dashboard
-- `npm build` - Build for production
+### Dashboard (Vite)
+- `npm run dev` - Launch the dashboard development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build locally
+- `npm run lint` - Run ESLint
 
 ## 🔐 Security
 
