@@ -19,6 +19,7 @@ TradeX--Trading-Platform/
 ## 🛠️ Technology Stack
 
 ### Languages
+- **React.js** - A frontend JavaScript library used for building interactive user interfaces.
 - **JavaScript** - Primary language for frontend and backend (84,809 bytes)
 - **HTML** - Markup for web interfaces (1,367 bytes)
 - **CSS** - Styling and layout (32,251 bytes)
