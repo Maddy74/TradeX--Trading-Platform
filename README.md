@@ -97,10 +97,6 @@ TradeX--Trading-Platform/
 - Secure authentication mechanisms
 - Protected routes and authorization checks
 
-## 📝 License
-
-This project is open source and available under the MIT License.
-
 ## 👥 Contributors
 
 - **Maddy74** - Project Owner
